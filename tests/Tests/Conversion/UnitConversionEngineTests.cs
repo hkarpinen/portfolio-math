@@ -17,7 +17,7 @@ public sealed class UnitConversionEngineTests
     }
 
     [Theory]
-    [InlineData("kg",  "lb", 1,   2.204622476)]
+    [InlineData("kg",  "lb", 1,   2.2046226218)]
     [InlineData("lb",  "kg", 1,   0.45359237)]
     [InlineData("g",   "kg", 1000, 1)]
     public void Weight_ConvertsCorrectly(string from, string to, decimal input, decimal expected)
